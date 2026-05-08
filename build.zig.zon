@@ -1,0 +1,19 @@
+.{
+    .name = .piano_chord_practice,
+    .version = "0.1.0",
+    .fingerprint = 0x15d7a16fdd8a91c1,
+    .minimum_zig_version = "0.15.2",
+
+    .dependencies = .{
+        .lightmix = .{
+            .url = "https://github.com/haruki7049/lightmix/archive/refs/tags/0.20.1.tar.gz",
+            .hash = "lightmix-0.20.1-SpCovDqWAgCxZcDwnFuVIqZpYvauTC3s2cx3uuTPT9PO",
+        },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
